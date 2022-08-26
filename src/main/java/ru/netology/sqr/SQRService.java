@@ -1,9 +1,9 @@
-package ru.netology.sqr
+package ru.netology.sqr;
 
-public class SQRService {
+public  class SQRService {
 
-    public countSqr(int min, int max) {
-        int count = 0
+    public int  countSqr(int min, int max) {
+        int count = 0;
         for (int i = 10; i <= 99; i++) {
             if (i * i >= min) {
                 if (i * i <= max) {
